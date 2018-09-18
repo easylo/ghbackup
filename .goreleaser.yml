@@ -20,23 +20,23 @@ archive:
     arm64: ARM64
     darwin: mac
     linux: linux
-    windows: windows
-brew:
-  github:
-    owner: easylo
-    name: homebrew-tap
-  folder: Formula
-  homepage: https://qvl.io/ghbackup
-  description: Embarrassingly simple GitHub backup tool
-  dependencies:
-    - git
-nfpm:
-  homepage: https://qvl.io/ghbackup
-  description: Embarrassingly simple GitHub backup tool
-  maintainer: Jorin Vogel <hi@jorin.me>
-  license: MIT
-  vendor: easylo
-  formats:
-    - deb
-  dependencies:
-    - git
+    # windows: windows
+# brew:
+#   github:
+#     owner: easylo
+#     name: homebrew-tap
+#   folder: Formula
+#   homepage: https://qvl.io/ghbackup
+#   description: Embarrassingly simple GitHub backup tool
+#   dependencies:
+#     - git
+# nfpm:
+#   homepage: https://qvl.io/ghbackup
+#   description: Embarrassingly simple GitHub backup tool
+#   maintainer: Jorin Vogel <hi@jorin.me>
+#   license: MIT
+#   vendor: easylo
+#   formats:
+#     - deb
+#   dependencies:
+#     - git
