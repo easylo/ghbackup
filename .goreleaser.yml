@@ -23,7 +23,7 @@ archive:
     windows: windows
 brew:
   github:
-    owner: qvl
+    owner: easylo
     name: homebrew-tap
   folder: Formula
   homepage: https://qvl.io/ghbackup
@@ -35,7 +35,7 @@ nfpm:
   description: Embarrassingly simple GitHub backup tool
   maintainer: Jorin Vogel <hi@jorin.me>
   license: MIT
-  vendor: qvl
+  vendor: easylo
   formats:
     - deb
   dependencies:
