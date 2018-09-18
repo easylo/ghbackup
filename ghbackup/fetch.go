@@ -66,7 +66,7 @@ func getURL(account, secret, api string, doer Doer) (string, error) {
 		}
 		user = category + "/" + account
 	}
-	url := api + "/" + user + "/repos?per_page=100"
+	url := api + "/" + user + "/repos?type=all&per_page=100"
 	return url, nil
 }
 
