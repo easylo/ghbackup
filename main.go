@@ -10,7 +10,7 @@ import (
 	"os"
 	"runtime"
 
-	"qvl.io/ghbackup/ghbackup"
+	"easylo/ghbackup/ghbackup"
 )
 
 // Can be set in build step using -ldflags
